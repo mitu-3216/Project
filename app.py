@@ -30,14 +30,14 @@ st.write("Please enter the range of ports you want to scan in format: <int>-<int
 port_range01 = st.text_input("From: ")
 port_range02 = st.text_input("To: ")
 
-port_min = int(port_range01)
-port_max = int (port_range02)
+
 
 
     # We pass the port numbers in by removing extra spaces that people sometimes enter. So if you enter 80 - 90 instead of 80-90 the program will still work.
 if(st.button("Click me")):
     #port_range_valid = port_range_pattern.search(port_range.replace(" ",""))
-
+    port_min = int(port_range01)
+    port_max = int (port_range02)
     #if port_range_valid:
             # We're extracting the low end of the port scanner range the user want to scan.
             #port_min = int(port_range_valid.group(1))
