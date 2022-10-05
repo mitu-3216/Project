@@ -12,6 +12,7 @@ port_max = 65535
 
 while True:
     ip_add_entered = st.text_input("\nPlease enter the ip address that you want to scan: ")
+    st.button=("submit")
     # If we enter an invalid ip address the try except block will go to the except block and say you entered an invalid ip address.
     try:
         ip_address_obj = ipaddress.ip_address(ip_add_entered)
