@@ -10,7 +10,7 @@ port_range_pattern = re.compile("([0-9]+)-([0-9]+)")
 port_min = 0
 port_max = 65535
 
-
+nm = nmap.PortScanner()
 ip_add_entered = st.text_input("\nPlease enter the ip address that you want to scan: ")
 if(st.button("Submit")):
         st.write("The IP you entered is: ", ip_add_entered)
@@ -39,7 +39,7 @@ if(st.button("Click me")):
             port_max = int(port_range_valid.group(2))
             
 
-            nm = nmap.PortScanner()
+           
     # We're looping over all of the ports in the specified range.
             for port in range(port_min, port_max + 1):
                 try:
