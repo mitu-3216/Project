@@ -1,4 +1,4 @@
 streamlit
-pythoon_nmap
+python-nmap
 ipaddress
 re
