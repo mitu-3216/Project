@@ -24,6 +24,7 @@ while True:
 while True:
     
     st.write("Please enter the range of ports you want to scan in format: <int>-<int> (ex would be 60-120)")
+    if(st.button("Submi")):
     port_range = st.text_input("Enter port range: ")
    
     port_range_valid = port_range_pattern.search(port_range.replace(" ",""))
