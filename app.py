@@ -33,7 +33,7 @@ while True:
       
         port_max = int(port_range_valid.group(2))
         break
-
+scanner= ""
 #nm = nmap.PortScanner()
 
 for port in range(port_min, port_max + 1):
