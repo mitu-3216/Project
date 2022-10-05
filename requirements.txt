@@ -1,4 +1,4 @@
 streamlit
 python-nmap
 ipaddress
-re
+regex
