@@ -1,2 +1,4 @@
 streamlit
-nmap
+pythoon_nmap
+ipaddress
+re
