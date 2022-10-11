@@ -26,7 +26,7 @@ if(st.button("Submit")):
 
 
     # You can scan 0-65535 ports. This scanner is basic and doesn't use multithreading so scanning all the ports is not advised.
-st.write("Please enter the range of ports you want to scan in format: <int>-<int> (ex would be 60-120)")
+st.write("Please enter the range of ports you want to scan in format:")
 port_range01 = st.text_input("From: ")
 port_range02 = st.text_input("To: ")
 
